@@ -1,0 +1,358 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+
+div, header, nav, section, article, footer {
+    border-radius: 15px;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+}
+	
+h1 {
+	font-size: 4em;
+	font-family: Georgia, serif;
+}
+
+
+h2 {
+	font-family: Calibri, Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-family: Calibri, Helvetica, sans-serif;
+	font-size: 1.17em;
+}
+
+p, li, blockquote {
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+	list-style-position: inside;
+}
+
+p, blockquote {
+    line-height: 1.5;
+}
+
+ul, li {
+    line-height: 1.3;
+}
+
+a:link {
+	color:#990000;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#FF704D;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#FF704D;
+}
+
+a:active {
+	color:#000000;
+}
+
+
+header {
+    float: left;
+    width: 100%;
+    min-height: 330px;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
+    text-align: left;
+    background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2017/12/ADF8B96B-58C2-48CE-BD6A-C496F0A5B262-760x400.jpeg");
+}	
+
+header h1 {
+    font-size: 4em;
+    margin: 0px;
+    padding: 30px 0px 0px 0px;
+    color: #fdfbec;
+    margin: 0% 0% 0% 10%;
+    background: transparent;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    color: white;
+    height: 100px;
+    padding: 5px;
+    background-image: url("https://cdn.searchenginejournal.com/wp-content/uploads/2017/12/ADF8B96B-58C2-48CE-BD6A-C496F0A5B262-760x400.jpeg");	
+}
+
+footer a#home-link {
+    color: #fff;
+}
+
+
+.menu-main-menu-container {
+    float: left;
+    width: 100%;
+    background-color:#fee298;
+}
+
+.menu-main-menu-container ul li {
+    list-style-type: none;
+    display: inline;	
+    text-indent: 0px;
+}
+
+.menu-main-menu-container ul li a {
+    display: block;
+    text-decoration: none;
+    border-right: 2px solid #806633;
+    padding: 3px 10px;
+    float: left;
+    color: #000000;
+}
+
+.menu-main-menu-container ul li:last-child a {
+    border: none;
+}
+
+.menu-main-menu-container ul li a:link {
+    color: black;
+}
+
+.menu-main-menu-container ul li a:hover {
+    background-color: #fdfbec;
+}
+
+
+
+div#mainContainer {
+    float: left;
+    width: 100%;
+    
+	background-color:#FFA07A;
+    min-height: 500px;
+}
+
+section#mainContent {
+    clear: left;
+    float: left;
+    width: 70%;
+    padding: 20px 15px;
+    margin: 20px 0 20px 5%;
+    display: inline;
+    background-color:#FDFBEC;
+}
+
+
+.GamePlayers {
+    text-align: center;
+    font-weight: bold;
+}
+
+#GameBoard, #GameButtons, #GameSelector {
+    margin: 0 auto;
+    width: 192px;
+}
+
+
+.rss-title {
+    padding: 5px;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+.rss-title p {
+    margin: 0 0 0 5%;
+}
+
+.rss-slide-output {
+    padding: 5px;
+    min-height: 400px;
+    display: none;
+}
+
+.rss-slide-output a:link {
+    color:#3D3D5C;
+}
+
+.rss-slide-output a:hover {
+    color:#47008F;
+}
+
+.rss-article-letter {
+    color: green;
+}
+
+.portfolio-entry {
+    width: 100%;
+    min-height: 300px;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+.portfolio-entry-text {
+float: right;
+width: 60%;
+}
+
+.portfolio-entry-snapshot {
+float: left;
+width: 40%;
+}
+
+
+div.ccf-form-wrapper {
+
+}
+
+form {
+
+}
+
+input {
+
+}
+
+
+
+div.storyPart {
+min-height: 500px;
+padding: 10px 0;
+margin: 0 0 0 5%;
+}
+
+div.storyPart-text {
+max-width: 500px;
+}
+
+div.storyPart-text {
+font-family: Georgia, serif;
+font-size: 1.2em;
+}
+
+div.storyPart-img {
+}
+
+dov/storyPart-img img {
+width: 100%;
+}
+
+
+.form_field {
+    clear: both;
+    padding: 10px;
+    width: 350px;
+}
+
+.form_field label {
+    float: left;
+    width: 150px;
+    text-align: right;
+}
+
+.form_field input, textarea {
+    float: right;
+    width: 150px;
+    text-align: left;
+}
+
+#submit {
+    text-align: center;
+}
+
+.errorClass {
+    background-color: #CC6666;
+}
+
+#errorDiv {
+    color: red;
+}
+
+.errorFeedback {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 1150px) {
+.portfolio-entry-snapshot {
+    width: 100%;
+}
+
+.portfolio-entry-text {
+    width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 720px) {
+#menu-main-menu {
+    width: 100%;
+}
+
+.menu-main-menu-container ul li {
+    display: inline;
+}
+
+
+
+
+
+.menu-main-menu-container ul li a {
+    width: 40%;
+    display: inline;
+    float: left;
+    text-align: center;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 500px) {
+#menu-main-menu {
+    width: 100%;
+}
+
+.menu-main-menu-container ul li {
+    display: block;
+}
+
+.menu-main-menu-container ul li a {
+    width: 60%;
+    display: block;
+    float: left;
+    text-align: left;
+    padding-right: 25px;
+    border: none;
+    box-sizing: border-box;
+}
+
+}
